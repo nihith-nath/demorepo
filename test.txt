@@ -1,0 +1,19 @@
+The process of using commands from a local folder to a remote repository in GitHub typically involves the following steps:
+
+Initialize a Git repository: In your local folder, open a command prompt or terminal and use the git init command to initialize a Git repository.
+
+Connect to a remote repository: Use the git remote add command to connect your local repository to a remote repository on GitHub. For example, if your repository URL is https://github.com/username/repository.git, you would use the command git remote add origin https://github.com/username/repository.git.
+
+Stage changes: Use the git add command to stage the changes you want to commit. You can use the git status command to see which files have been modified and need to be staged.
+
+Commit changes: Use the git commit command to commit your changes with a commit message describing the changes.
+
+Push changes: Use the git push command to push your changes to the remote repository. For example, to push changes to the main branch, you would use the command git push origin main.
+
+Pull changes: If you are working with a team and there have been changes made to the remote repository since you last pulled changes, you will need to use the git pull command to pull those changes to your local repository before pushing your changes. For example, to pull changes from the main branch, you would use the command git pull origin main.
+
+These are the basic steps involved in using commands from a local folder to a remote repository in GitHub. There may be additional steps or variations depending on your specific workflow and the Git commands you are using.
+
+
+
+
